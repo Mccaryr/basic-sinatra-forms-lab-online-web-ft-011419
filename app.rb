@@ -8,7 +8,7 @@ end
 
 post '/team' do
   @name = params[:name]
-  @coach = parmas[:coach]
+  @coach = params[:coach]
   @pg = params[:pg]
   @pf = params[:pf]
   @sg = params[:sg]
