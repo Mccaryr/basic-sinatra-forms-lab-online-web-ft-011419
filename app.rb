@@ -10,6 +10,10 @@ post '/team' do
   @name = params[:name]
   @coach = parmas[:coach]
   @pg = params[:pg]
+  @sg = params[:sg]
+  @sf = params[:sf]
+  @pf = params[:pf]
+  @c = params[:c]
   erb :team
 end
 
